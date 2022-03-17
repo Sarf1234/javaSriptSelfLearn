@@ -45,3 +45,50 @@ if(checkthecompany === -1){
  } else {
      console.log('This companies does exist in the array')
  }
+
+
+ //Sort the array using sort() method
+ let sortarray = companies.sort();
+ console.log(sortarray);
+ for(number of sortarray){
+     console.log(number);
+
+ }
+
+
+let reversearray =  sortarray.reverse();
+for(const number of reversearray){
+    console.log(number);
+}
+
+let arrangenewarray = ['hello1', 'hello2','hello3', 'hello4'];
+//Slice out the first 3 companies from the array
+
+let sliceone = arrangenewarray.slice(0, 2);
+console.log(sliceone);
+console.log(arrangenewarray.slice(0));
+console.log(arrangenewarray.slice(-1));
+
+
+// some other array method
+
+let arraymodified = [1,2,3,4,5,6,7,8,9];
+// push and pop => for add in a last array and remove last element;
+arraymodified.push(10);
+console.log(arraymodified);
+arraymodified.pop();
+console.log(arraymodified)
+
+
+// Remove the first IT company from the array
+// Remove the middle IT company or companies from the array
+// Remove the last IT company from the array
+// Remove all IT companies
+// for remove first element
+arraymodified.unshift(0);
+console.log(arraymodified);
+arraymodified.shift();
+console.log(arraymodified);
+
+
+
