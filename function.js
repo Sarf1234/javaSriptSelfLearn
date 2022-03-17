@@ -268,3 +268,30 @@ function init() {
   that is a closures
 
   */
+
+
+
+let num = 44;
+let flag = true;
+let i = 2;
+if(num === 1){
+    console.log("neither prime or composit");
+}
+while(i < num){
+    if(num % i === 0){
+        flag = false;
+        break;
+        
+    }
+    else{
+       flag = true;
+    }
+   
+    i++;
+}
+if(flag){
+    console.log(num,'prime number');
+}
+else{
+    console.log(num, "not a prime number")
+}
