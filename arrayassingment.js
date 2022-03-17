@@ -68,6 +68,10 @@ let sliceone = arrangenewarray.slice(0, 2);
 console.log(sliceone);
 console.log(arrangenewarray.slice(0));
 console.log(arrangenewarray.slice(-1));
+// we will use sllice for remove someting
+
+let spliceone = arrangenewarray.splice(0, 3);
+console.log(spliceone);
 
 
 // some other array method
@@ -81,9 +85,7 @@ console.log(arraymodified)
 
 
 // Remove the first IT company from the array
-// Remove the middle IT company or companies from the array
 // Remove the last IT company from the array
-// Remove all IT companies
 // for remove first element
 arraymodified.unshift(0);
 console.log(arraymodified);
@@ -92,3 +94,50 @@ console.log(arraymodified);
 
 
 
+
+
+// First remove all the punctuations and change the string to array and count the number of words in the array
+
+// let text =
+// 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+// console.log(words)
+// console.log(words.length)
+// ["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
+
+// 13
+
+
+// we can convert string to array using split method
+
+let text = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+let splitmethod = text.split(' ');
+console.log(splitmethod);
+console.log(splitmethod.length);
+
+//Concat the array
+
+
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node','Express', 'MongoDB']
+const fullStack = frontEnd.concat(backEnd);
+console.log(fullStack)
+
+//The following is an array of 10 students ages:
+
+const ages = [100,19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+
+// Sort the array and find the min and max age
+// Find the median age(one middle item or two middle items divided by two)
+// Find the average age(all items divided by number of items)
+// Find the range of the ages(max minus min)
+// Compare the value of (min - average) and (max - average), use abs() method 
+// 1.Slice the first ten countries from the countries array
+
+let sortarraywith = ages.sort();
+console.log(sortarraywith);
+let min = sortarraywith[0];
+let max = sortarraywith[sortarraywith.length - 1];
+console.log(min);
+console.log(max);
+ 
