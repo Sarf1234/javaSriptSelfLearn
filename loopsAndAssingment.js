@@ -104,7 +104,7 @@ console.log(odd);
 
 let araay = [1,2,3,4,5,6,7,8,9];
 let stng = ""
-for(let i = 0; i < 5; i++){
-      stng += araay[Math.floor(Math.random(araay[i]) * 6)];
+for(let i = 0; i < 2; i++){
+      stng += Math.floor(Math.random() * araay.length);
 }
 console.log(stng);
