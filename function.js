@@ -22,6 +22,15 @@ hello(2, 3);
 hello(2, 3);
 
 
+// function statement
+ // how to initialized a function is a 
+ // function statement
+
+ function statementof(){
+    console.log("Hello world")
+ }
+
+
 //   Arrow Functions
 
 /*  Arrow function expressions were 
@@ -62,11 +71,11 @@ anonymous and/or assigned to a variable.
 
 */
 
-const funvtionExpression = function () {
+const functionExpression = function () {
     return console.log("function expressions");
 }
 
-funvtionExpression();
+functionExpression();
 
 
 // call back functions
