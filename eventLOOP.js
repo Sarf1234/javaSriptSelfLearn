@@ -28,3 +28,26 @@ console.log("end");
 
 
                   */
+
+
+console.log("start")
+setTimeout(function hello(){
+    console.log("here the timer start")
+}, 3000)
+
+fetch('https://www.netflixApi.com').then(function(){
+    console.log(data);
+})
+
+console.log("end")
+
+
+
+/*   eventloop is work as to check callback queue is empty or full
+  but one thing also its also works with other type with fetch request.
+  and in this it works deffrently for that we have also other microtask
+  queue so if any taks return any promises and any data that is more 
+  prior to the event loop its check whether the call stach empty or not 
+  and then its first execute microtask call back or code first and 
+  after that its execute callback queue or we say callback queue to 
+  taskqueue */
