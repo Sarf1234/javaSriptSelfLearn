@@ -1,4 +1,4 @@
-// CallBack => when we pass a function inside a function is call
+// CallBack => when we pass a function inside a function is called
 //             callback function.
 
 
