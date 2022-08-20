@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            *{
+                margin: 0; padding: 0; box-sizing: border-box;
+            }
+
+
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: rgb(154, 154, 202);
+                color: white;
+
+            }
+
+            .container{
+                padding: 3rem;
+                border: 2px solid silver;
+                background: rgb(51, 51, 73);
+                cursor: pointer;
+            }
+            h1{
+                margin: 1rem;
+            }
+            .container2{
+                padding: 2rem;
+                border: 2px solid silver;
+                background: rgb(23, 23, 107);
+                cursor: pointer;
+            }
+            .contianer3{
+                padding: 1rem;
+                border: 2px solid silver;
+                background: rgb(2, 2, 39);
+                color: white;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <div class="container"> <h1>BOX 1</h1>
+        <div class="container2">
+            <h1>BOX 2</h1>
+            <div class="contianer3">
+                <h1>BOX 3</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        document.querySelector('.container').addEventListener('click', function(){
+            console.log('container 1');
+        })
+
+        document.querySelector('.container2').addEventListener('click', function(){
+            console.log('container 2');
+        })
+        
+        document.querySelector('.container3').addEventListener('click', function(){
+            console.log('container 3');
+        })
+    </script>
+</body>
+</html>
