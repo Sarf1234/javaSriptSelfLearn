@@ -23,27 +23,29 @@
 // its change only own not the real
 
 
-let a = 10
-let b = a;
-b = 20;
-console.log(a)  // 10
-console.log(b) // 20
+// let a = 10
+// let b = a;
+// b = 20;
+// console.log(a)  // 10
+// console.log(b) // 20
 
 // but its deffrent for non premitive its when its ger refrence and 
 // we will change the value its change the real one
 
-let hello = {
-    name : "sarfraj",
-    lastname : "shekh"
-}
+// let hello = {
+//     name : "sarfraj",
+//     lastname : "shekh"
+// }
 
-let hello1 = hello;
+// let hello1 = hello;
 
-hello1.name = "rahul"
+// hello1.name = "rahul"
 
-console.log(hello)    //{ name: 'rahul', lastname: 'shekh' }
-console.log(hello1)   //{ name: 'rahul', lastname: 'shekh' }
+// console.log(hello)    //{ name: 'rahul', lastname: 'shekh' }
+// console.log(hello1)   //{ name: 'rahul', lastname: 'shekh' }
 
 
+
+//   go for string method
 
 
