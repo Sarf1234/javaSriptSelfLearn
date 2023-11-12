@@ -49,3 +49,21 @@
 //   go for string method
 
 
+// const hello = "here i just start and i know how to start and end"
+// console.log(hello);
+
+// console.log(hello.charAt(4));
+// console.log(hello.indexOf('i'))
+// console.log(hello.toUpperCase());
+// console.log(hello.toLowerCase());
+// console.log(hello.length);
+// console.log(hello.replace("i", "sarfraj")) // its change but only only one element if other i is exist it cant change
+// console.log(hello.includes('know'))
+// console.log(hello.split("i")) // its return array
+// console.log(hello.split("i").join('').trim());
+// console.log(hello.slice(2, 9));
+
+
+
+// here we can start with array method
+
