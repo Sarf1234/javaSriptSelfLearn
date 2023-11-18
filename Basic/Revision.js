@@ -67,3 +67,20 @@
 
 // here we can start with array method
 
+const array = [1, 2, 3, 4, 5, 6]
+
+const allelement =  array.forEach(element => {
+     console.log(element + 1);
+
+});
+
+const slcce  = array.slice(0, 1);
+console.log(slcce)
+console.log(array)
+const spilice = array.splice(0, 1);
+console.log(spilice)
+console.log(array)
+
+console.log(allelement);
+
+
