@@ -82,9 +82,19 @@ const array = [1, 2, 3, 4, 5, 6]
 
 // console.log(allelement);
 
-for(const num of array){
-     console.log(num)
+// for(const num of array){
+//      console.log(num)
+// }
+
+
+// random color genrate
+
+let color = '#'
+let string = '123456789ABCDEF';
+for(let i = 0; i < 6; i++){
+     color += string
 }
+
 
 
 
