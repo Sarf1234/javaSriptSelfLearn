@@ -69,17 +69,23 @@
 
 const array = [1, 2, 3, 4, 5, 6]
 
-const allelement =  array.forEach(element => {
-     console.log(element);
-});
+// const allelement =  array.forEach(element => {
+//      console.log(element);
+// });
 
-const slcce  = array.slice(0, 1);
-console.log(slcce)
-console.log(array)
-const spilice = array.splice(0, 1);
-console.log(spilice)
-console.log(array)
+// const slcce  = array.slice(0, 1);
+// console.log(slcce)
+// console.log(array)
+// const spilice = array.splice(0, 1);
+// console.log(spilice)
+// console.log(array)
 
-console.log(allelement);
+// console.log(allelement);
+
+for(const num of array){
+     console.log(num)
+}
+
+
 
 
