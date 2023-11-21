@@ -91,9 +91,13 @@ const array = [1, 2, 3, 4, 5, 6]
 
 let color = '#'
 let string = '123456789ABCDEF';
+// const hello;
+// console.log(hello)
 for(let i = 0; i < 6; i++){
-     color += string
+     color += string[Math.floor(Math.random() * 10)]   
 }
+
+console.log(color)
 
 
 
