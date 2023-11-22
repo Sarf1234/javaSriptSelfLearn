@@ -100,6 +100,7 @@ for(let i = 0; i < 6; i++){
 console.log(color)
 
 
+// here is git hub
 
 
 
